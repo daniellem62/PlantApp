@@ -36,7 +36,7 @@ export const plantData = [
       sunlight: "full_sun",
       watering: "minimum",
       hardiness: "zone 5-9",
-      url: "",
+      url: "https://as2.ftcdn.net/v2/jpg/03/09/88/99/1000_F_309889952_GIM86WYeLVCTipzN1L8HMxRGCk5xet3l.jpg",
       indoor: false
     },
     {

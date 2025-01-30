@@ -4,10 +4,6 @@ import { SearchOutlined } from '@ant-design/icons';
 import { Input } from 'antd';
 
 
-const onChange = (e) => {
-  console.log(e);
-};
-
 
 import { useState } from "react";
 
@@ -23,14 +19,18 @@ function Search({ handleSearch }) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input
+      <Input
         type="text"
         value={query} // Controlled input, value tied to local state
         onChange={(e) => setQuery(e.target.value)} // Update local query state
         placeholder="Search plants..."
-        allowClear onChange={onChange}
+        allowClear 
       />
-        <Button type="primary" icon={<SearchOutlined />}>
+          <Button 
+        type="primary" 
+        icon={<SearchOutlined />} 
+        htmlType="submit" // Ensure the button triggers form submission
+      >
         Search
       </Button>
     </form>
