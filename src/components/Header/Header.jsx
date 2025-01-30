@@ -3,7 +3,7 @@ import styles from './Header.module.css';
 function Header() {
     return (
         <header className={styles.header}>
-            <h1>Plant App</h1>
+            <h1>Green Companion</h1>
         </header>
     );
 }
