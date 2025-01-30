@@ -1,3 +1,13 @@
+import { Button } from "antd";
+import { SearchOutlined } from '@ant-design/icons';
+import { Input } from 'antd';
+
+
+const onChange = (e) => {
+  console.log(e);
+};
+
+
 function Search() {
 
   const handleSubmit = (e) => {
@@ -6,11 +16,11 @@ function Search() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input
-        type="text"
-        placeholder="Search plants..."
-      />
-      <button>Search</button>
+      <Input placeholder="Search plants..." allowClear onChange={onChange} />
+      
+      <Button type="primary" icon={<SearchOutlined />}>
+        Search
+      </Button>
     </form>
   );
 }
