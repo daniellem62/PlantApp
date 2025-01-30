@@ -4,6 +4,7 @@ import Header from "./components/Header/Header.jsx";
 import Search from "./components/Search/Search.jsx";
 import PlantCard from './components/PlantCard/PlantCard.jsx'
 import { plantData } from "./assets/data.js";
+import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   const [plants, setPlants] = useState(plantData); // All plants (initial data)
@@ -24,6 +25,7 @@ function App() {
       <Search handleSearch={handleSearch} /> {/* Correct prop name */}
       <h1>Plant Information</h1>
       <PlantCard plants={filteredPlants} /> {/* Use filteredPlants */}
+      <Footer/>
     </div>
   );
 }
