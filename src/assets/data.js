@@ -6,7 +6,7 @@ export const plantData = [
       sunlight: "full_sun",
       watering: "average",
       hardiness: "zone 4-8",
-      url: "",
+      url: "https://images.immediate.co.uk/production/volatile/sites/10/2023/06/2048x1365-Oak-trees-SEO-GettyImages-90590330-b6bfe8b.jpg?quality=90&webp=true&resize=1200,800",
       indoor: false
     },
     {
@@ -16,7 +16,7 @@ export const plantData = [
       sunlight: "part_shade",
       watering: "frequent",
       hardiness: "zone 5-9",
-      url: "",
+      url: "https://i.pinimg.com/736x/e5/4a/e8/e54ae8ea86fea066503edbc3bbbf1733.jpg",
       indoor: false
     },
     {
@@ -26,7 +26,7 @@ export const plantData = [
       sunlight: "full_sun",
       watering: "average",
       hardiness: "zone 10-12",
-      url: "",
+      url: "https://www.plantswhitsunday.com.au/wp-content/uploads/2020/04/Ficus-Elastica.jpg",
       indoor: true
     },
     {
@@ -47,7 +47,7 @@ export const plantData = [
       watering: "frequent",
       hardiness: "zone 3-10",
       edible: true,
-      url: "",
+      url: "https://www.amazevegegarden.com/wp-content/uploads/2021/05/609b45f0d4a01.jpg",
       indoor: false
     },
     {
@@ -58,7 +58,7 @@ export const plantData = [
       watering: "frequent",
       hardiness: "zone 5-11",
       edible: true,
-      url: "",
+      url: "https://www.thespruce.com/thmb/yhOFolPlTPVDLCHKQI0Vp_ZqMw4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/top-tomato-growing-tips-1402587-11-c6d6161716fd448fbca41715bbffb1d9.jpg",
       indoor: false
     },
     {
@@ -68,7 +68,7 @@ export const plantData = [
       sunlight: "part_shade",
       watering: "average",
       hardiness: "zone 11-12",
-      url: "",
+      url: "https://cdn.mos.cms.futurecdn.net/MEKuWu27vSqwKFyKG2C96Q-1280-80.jpg.webp",
       indoor: true
     },
     {
@@ -78,7 +78,7 @@ export const plantData = [
       sunlight: "full_sun",
       watering: "average",
       hardiness: "zone 3-9",
-      url: "",
+      url: "https://cdn11.bigcommerce.com/s-i7i23daso6/images/stencil/640w/products/14998/34809/Echinacea_Magnus_0014155__20261.1684826408.jpg?c=1",
       indoor: false
     },
     {
@@ -88,7 +88,7 @@ export const plantData = [
       sunlight: "full_shade",
       watering: "average",
       hardiness: "zone 4-9",
-      url: "",
+      url: "https://www.plantarium.ru/dat/plants/5/596/183596_10557619.jpg",
       indoor: true
     },
     {
@@ -99,7 +99,7 @@ export const plantData = [
       watering: "average",
       hardiness: "zone 4-9",
       edible: true,
-      url: "",
+      url: "https://oldworldgardenfarms.com/wp-content/uploads/2023/02/asparagus-spears.jpg.webp",
       indoor: false
     }
   ];
