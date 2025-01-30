@@ -1,0 +1,17 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+
+.Button {
+    width: 30%;
+    margin: 0 auto;
+    
+}
+
+.Input{
+    width: 100%;
+}

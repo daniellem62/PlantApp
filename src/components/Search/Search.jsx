@@ -1,3 +1,4 @@
+import styles from "./Search.module.css";
 
 import { Button } from "antd";
 import { SearchOutlined } from '@ant-design/icons';
@@ -18,8 +19,8 @@ function Search({ handleSearch }) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <Input
+    <form className={styles.Form} onSubmit={handleSubmit}>
+      <Input className={styles.Input}
         type="text"
         value={query} // Controlled input, value tied to local state
         onChange={(e) => setQuery(e.target.value)} // Update local query state
@@ -27,6 +28,7 @@ function Search({ handleSearch }) {
         allowClear 
       />
           <Button 
+          className={styles.Button}
         type="primary" 
         icon={<SearchOutlined />} 
         htmlType="submit" // Ensure the button triggers form submission
