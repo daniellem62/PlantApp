@@ -13,16 +13,7 @@ function SuggestedPlants({ plants, onSelectPlant }) {
             {suggestedPlants.map((plant) => (
               <li key={plant.id}>
                 <button 
-                  onClick={() => onSelectPlant(plant)}
-                  style={{
-                    background: "none",
-                    border: "none",
-                    color: "green",
-                    textDecoration: "underline",
-                    cursor: "pointer",
-                    fontSize: "16px"
-                  }}
-                >
+                  onClick={() => onSelectPlant(plant)} > {/* Call onSelectPlant with the selected plant */}
                   {plant.common_name}
                 </button>
               </li>
