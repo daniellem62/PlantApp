@@ -99,7 +99,7 @@ export const plantData = [
       watering: "average",
       hardiness: "zone 4-9",
       edible: true,
-      url: "",
+      url: "https://homegarden-cahnr.media.uconn.edu/wp-content/uploads/sites/3479/2022/07/asparagus-_6_2602912181.jpeg",
       indoor: false
     },
     {

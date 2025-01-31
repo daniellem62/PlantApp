@@ -29,7 +29,7 @@
 }
 .cardContainer {
     display: grid;
-    grid-template: 600px 600px 600px / 400px 400px 400px;
+    grid-template: 700px 700px 700px / 400px 400px 400px;
     gap: 20px;
     padding: 10px;
   }
