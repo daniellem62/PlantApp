@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./SuggestedPlants.module.css";
 
 function SuggestedPlants({ plants, onSelectPlant }) {
   // Get 5 random plants from the list
@@ -9,11 +10,11 @@ function SuggestedPlants({ plants, onSelectPlant }) {
     return (
         <div>
           <h2>Suggested Plants</h2>
-          <ul>
+          <ul className={styles.suggestedPlantItem}>
             {suggestedPlants.map((plant) => (
               <li key={plant.id}>
                 <button 
-                  onClick={() => onSelectPlant(plant)} > {/* Call onSelectPlant with the selected plant */}
+                  onClick={() => onSelectPlant(plant)} className={styles.button}> {/* Call onSelectPlant with the selected plant */}
                   {plant.common_name}
                 </button>
               </li>
