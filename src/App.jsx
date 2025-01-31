@@ -58,7 +58,7 @@ function App() {
       <SuggestedPlants plants={plants} onSelectPlant={handleSelectPlant} />{" "}
       {/* Pass all plants */}
       <Filter handleFilterChange={handleFilterChange} filter={filter} />{" "}
-      <button onClick={handleResetFilters} style={{ padding: "10px", marginTop: "20px" }}>
+      <button onClick={handleResetFilters} style={{ padding: "10px", marginTop: "0px" }}>
         Show All
       </button>
       {/* Correct prop names */}
