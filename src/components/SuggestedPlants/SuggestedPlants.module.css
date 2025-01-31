@@ -1,0 +1,22 @@
+
+.suggestedPlantItem {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-wrap: wrap; /* Wrap the items in case they overflow */
+    justify-content: center; /* Distribute the items evenly */
+    gap: 15px; /* Add spacing between the items */
+    list-style-type: none; /* Remove the default list styling */
+    padding: 0;
+ 
+}
+
+.button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
