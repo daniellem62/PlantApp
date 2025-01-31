@@ -99,7 +99,7 @@ export const plantData = [
       watering: "average",
       hardiness: "zone 4-9",
       edible: true,
-      url: "https://oldworldgardenfarms.com/wp-content/uploads/2023/02/asparagus-spears.jpg.webp",
+      url: "",
       indoor: false
     }
   ];
