@@ -34,6 +34,12 @@ function App() {
     setFilter(value);
   }
 
+  const handleResetFilters = () => {
+    setSearchQuery(""); // Reset search query
+    setFilter(""); // Reset filter to show all plants
+    setSelectedPlant(null); // Clear the selected plant
+  };
+
   // Filter plants based on searchQuery
   const filteredPlants = selectedPlant
     ? [selectedPlant]
@@ -52,6 +58,9 @@ function App() {
       <SuggestedPlants plants={plants} onSelectPlant={handleSelectPlant} />{" "}
       {/* Pass all plants */}
       <Filter handleFilterChange={handleFilterChange} filter={filter} />{" "}
+      <button onClick={handleResetFilters} style={{ padding: "10px", marginTop: "20px" }}>
+        Show All
+      </button>
       {/* Correct prop names */}
       <h1>Plant Information</h1>
       <PlantCard plants={filteredPlants} /> {/* Use filteredPlants */}

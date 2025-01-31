@@ -15,7 +15,7 @@ function PlantCard({ plants }) {
             </p>
             <p>
               <strong>Sunlight:</strong>{" "}
-              {plant.sunlight === "full_sun" ? "☀️ Full Sun" : "🌓 Part Shade"}
+              {plant.sunlight === "full_sun" ? "☀️ Full Sun" : plant.sunlight === "full_shade" ? "⚫️ Full Shade" : "🌓 Part Shade" }
             </p>
             <p>
               <strong>Watering:</strong> {plant.watering === "frequent" ? "Frequent" : "Average"}
