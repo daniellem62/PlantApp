@@ -200,6 +200,56 @@ export const plantData = [
       hardiness: "zone 7-10",
       url: "https://images.squarespace-cdn.com/content/v1/650037e22d8165634b185b97/11fa557c-4404-4212-adef-fc68d29ba578/IMG_9390.jpg?format=2500w",
       indoor: false,
+    },
+    {
+      "id": 21,
+      "scientific_name": "Astilbe Arendsii",
+      "common_name": "False Spirea",
+      "sunlight": "full_shade",
+      "watering": "regular",
+      "hardiness": "zone 4-9",
+      "url": "https://th.bing.com/th/id/OIP.pme8xO6zjLcqGhDBQZNB6AHaE8?rs=1&pid=ImgDetMain",
+      "indoor": false
+    },
+    {
+      "id": 22,
+      "scientific_name": "Brunnera macrophylla",
+      "common_name": "Siberian Bugloss",
+      "sunlight": "full_shade",
+      "watering": "regular",
+      "hardiness": "zone 3-8",
+      "url": "https://th.bing.com/th/id/OIP.sdPE1tMXAU5waLYYgbJVgwHaHa?rs=1&pid=ImgDetMain",
+      "indoor": false
+    },
+    {
+      "id": 23,
+      "scientific_name": "Ferns (various species)",
+      "common_name": "Fern",
+      "sunlight": "full_shade",
+      "watering": "regular",
+      "hardiness": "zone 3-9",
+      "url": "https://th.bing.com/th/id/OIP.ZFjUbqQR6P_8Jc10Db3-UwHaE8?rs=1&pid=ImgDetMainage/app/media/fern.jpg",
+      "indoor": false
+    },
+    {
+      "id": 24,
+      "scientific_name": "Pulmonaria spp.",
+      "common_name": "Lungwort",
+      "sunlight": "full_shade",
+      "watering": "regular",
+      "hardiness": "zone 3-8",
+      "url": "https://th.bing.com/th/id/R.96946ebc2525b4f2d94010114a4f1de3?rik=CD0tJPM04V40ng&pid=ImgRaw&r=0",
+      "indoor": false
+    },
+    {
+      "id": 25,
+      "scientific_name": "Solomon's Seal (Polygonatum spp.)",
+      "common_name": "Solomon's Seal",
+      "sunlight": "full_shade",
+      "watering": "regular",
+      "hardiness": "zone 3-9",
+      "url": "https://www.gardenista.com/wp-content/uploads/2018/05/smooth-solomons-seal-marie-viljoen.jpg",
+      "indoor": false
     }
   ];
   
