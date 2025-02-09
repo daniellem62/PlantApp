@@ -1,0 +1,41 @@
+nav {
+    background-color: #dfe6cd;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    box-shadow: 25px 25px 25px 25px rgb(1, 46, 20);
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    font-family: fansong;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(39, 126, 90);
+    font-weight: bold;
+    padding: 2rem;
+  }
+  
+  nav ul li a:hover {
+    color: rgb(26, 53, 26);
+  }
+  
+
+
