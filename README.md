@@ -15,7 +15,7 @@
 
 ## Demo 🖥️
 
-![Green Companion Preview](path/to/screenshot.png)  
+![Green Companion Preview](public/preview.png)  
 *A clean and interactive UI for plant lovers!*
 
 ---
