@@ -41,9 +41,9 @@
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/green-companion.git
+   git clone https://github.com/your-username/PlantApp.git
 
-   cd green-compainion
+   cd PlantApp
 
    npm install
 
