@@ -55,6 +55,7 @@ function App() {
 
   return (
     <div>
+      <button onClick={() => {throw new Error("This is your first error!");}}>Break the world</button>;
       <Search handleSearch={handleSearch} /> {/* Correct prop name */}
       <SuggestedPlants plants={plants} onSelectPlant={handleSelectPlant} />{" "}
       {/* Pass all plants */}
