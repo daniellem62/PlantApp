@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@sentry/react": "^9.0.0",
+    "@sentry/react": "^9.5.0",
     "@sentry/vite-plugin": "^3.1.2",
     "antd": "^5.23.3",
     "axios": "^1.7.9",
